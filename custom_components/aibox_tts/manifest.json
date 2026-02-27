@@ -1,0 +1,14 @@
+{
+  "domain": "aibox_tts",
+  "name": "AIBOX TTS",
+  "codeowners": [
+    "@smarthomeblack"
+  ],
+  "config_flow": true,
+  "documentation": "https://ttsapi.ai-box.vn",
+  "iot_class": "cloud_polling",
+  "requirements": [
+    "aiohttp>=3.9.0"
+  ],
+  "version": "1.0.0"
+}

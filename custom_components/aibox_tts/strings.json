@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add AIBOX TTS",
+        "description": "Configure AIBOX TTS API connection.",
+        "data": {
+          "api_key": "API Key",
+          "base_url": "Base URL"
+        }
+      },
+      "profile": {
+        "title": "Default Voice Profile",
+        "description": "Choose default voice and style for this AIBOX TTS entity.",
+        "data": {
+          "voice": "Voice",
+          "style": "Style"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure AIBOX TTS",
+        "description": "Update API credentials for this integration entry.",
+        "data": {
+          "api_key": "API Key",
+          "base_url": "Base URL"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate AIBOX TTS",
+        "description": "Please enter a valid API key.",
+        "data": {
+          "api_key": "API Key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key or account balance is insufficient.",
+      "cannot_connect": "Cannot connect to AIBOX TTS API.",
+      "unknown": "Unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This AIBOX endpoint is already configured.",
+      "reconfigure_successful": "Configuration updated successfully.",
+      "reauth_successful": "Re-authentication successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "AIBOX TTS Options",
+        "data": {
+          "voice": "Voice",
+          "style": "Style"
+        }
+      }
+    }
+  }
+}
