@@ -23,11 +23,9 @@ Tích hợp Text-to-Speech (TTS) của [AI-BOX](https://tts.ai-box.vn) vào Home
 
 ### Cách 1: Thông qua HACS (Khuyến nghị)
 
-1. Mở HACS trên ứng dụng Home Assistant.
-2. Chọn phần **Integrations**.
-3. Bấm vào nút `+ Explore & Download Repositories` ở góc dưới cùng, tìm kiếm `AIBOX TTS`.
-4. Nhấn **Download**.
-5. Khởi động lại Home Assistant.
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=smarthomeblack&repository=aibox_tts&category=integration)
+
+- Tải về sau đó khởi động lại Home Assistant
 
 ### Cách 2: Cài đặt thủ công
 
@@ -84,7 +82,7 @@ data:
 2. **Lỗi không kết nối được (Cannot connect)**: Có thể do đường truyền từ Home Assistant đến server AIBOX không ổn định, hãy thử lại.
 3. Nếu giọng đọc không phát, hãy xem logger của HA (Cài đặt -> Hệ thống -> Nhật ký) để tìm mã lỗi chính xác.
 
-## � Demo
+## 📸 Demo
 
 <img title="AIBOX TTS" src="https://raw.githubusercontent.com/smarthomeblack/aibox_tts/refs/heads/main/1.png" width="100%"></img>
 
@@ -94,11 +92,9 @@ data:
 
 <img title="AIBOX TTS" src="https://raw.githubusercontent.com/smarthomeblack/aibox_tts/refs/heads/main/4.png" width="100%"></img>
 
-<img title="AIBOX TTS" src="https://raw.githubusercontent.com/smarthomeblack/aibox_tts/refs/heads/main/5.png" width="100%"></img>
-
 ---
 
-## �💬 Hỗ trợ
+## 📝💬 Hỗ trợ
 
 AIBOX TTS - Phát triển bởi **smarthomeblack**
 - Hỗ trợ về API: [https://tts.ai-box.vn](https://tts.ai-box.vn)
